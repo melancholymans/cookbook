@@ -1,0 +1,10 @@
+Filename: D:\IPythonnotebook\cookbook\notebooks\chapter04_optimization\simulation.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     7     48.1 MiB      0.0 MiB   def simulate(iterations, n=10000):
+     8     50.6 MiB      2.5 MiB       s = step(iterations, n)
+     9     52.5 MiB      1.9 MiB       x = np.cumsum(s, axis=0)
+    10     52.5 MiB      0.0 MiB       bins = np.arange(-30, 30, 1)
+    11     52.7 MiB      0.1 MiB       y = np.vstack([np.histogram(x[i,:], bins)[0] for i in range(iterations)])
+    12     52.7 MiB      0.0 MiB       return y

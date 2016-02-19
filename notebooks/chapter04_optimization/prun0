@@ -1,0 +1,16 @@
+         3264 function calls in 0.048 seconds
+
+   Ordered by: cumulative time
+   List reduced from 40 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.048    0.048 {built-in method builtins.exec}
+        1    0.001    0.001    0.048    0.048 <string>:4(<module>)
+        2    0.008    0.004    0.033    0.017 <ipython-input-4-7b2aa0313928>:1(step)
+        2    0.025    0.012    0.025    0.012 {method 'random_sample' of 'mtrand.RandomState' objects}
+        1    0.000    0.000    0.012    0.012 <string>:9(<listcomp>)
+       50    0.001    0.000    0.012    0.000 function_base.py:78(histogram)
+       50    0.000    0.000    0.009    0.000 fromnumeric.py:712(sort)
+       50    0.009    0.000    0.009    0.000 {method 'sort' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.002    0.002 fromnumeric.py:2038(cumsum)
+        1    0.002    0.002    0.002    0.002 {method 'cumsum' of 'numpy.ndarray' objects}
